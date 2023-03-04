@@ -11,7 +11,6 @@ import { IUser, Video } from '../../types';
 import { BASE_URL } from '../../utils';
 
 import useAuthStore from '../../store/authStore';
-import { allUsersQuery } from '@/utils/queries';
 
 const Search = ({ videos }: { videos: Video[] }) => {
     const [isAccounts, setIsAccounts] = useState(false);
